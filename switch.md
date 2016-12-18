@@ -1,4 +1,4 @@
-# 无线开关传感器
+# 无线开关传感器 (Xiaomi wireless button)
 
 
 ##属性上报
