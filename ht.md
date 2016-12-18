@@ -1,8 +1,11 @@
-# 温湿度传感器
+# 温湿度传感器 Temperature and humidity sensor
 
 ##属性上报
 
 温湿度传感器如果温度变化达到0.5度或者湿度变化达到6%上报一个报文。
+
+This sensor will report if the temperature change is over 0.5 degress or the humidity change is over 6%.
+
 
 | 属性 | 说明 |
 | -- | -- |
