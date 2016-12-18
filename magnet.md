@@ -1,8 +1,10 @@
-# 门窗传感器
+# 门窗传感器 Magnet Sensor
 
-##属性上报
+##属性上报 Status report
 
 (~60分钟每次),窗磁传感器贴在窗户上或门上感知窗户的状态，每动作一次发送一次report。
+
+(~every 60 minutes), the door/windows magnet sensors will report their status
 
 | 属性 | 说明 |
 | -- | -- |
@@ -11,7 +13,7 @@
 
 ```{"cmd":"report","model":"magnet","sid":"89234324","short_id":4343,"token":"3","data":"{\"status\":\"open\"}" }```
 
-##心跳上报
+##心跳上报 heartbeat 
 
 ```{"cmd":"report","model":"motion","sid":"89234324","short_id":4345,"token":"4","data":"{\"battery\":\"62\"}" }```
 
